@@ -16,7 +16,7 @@ gdk-pixbuf-dev
 #### ENSURE THAT EVERYTHING HAS BEEN CLONED & IS UP TO DATE ####
 
 ## clone / update SameBoy
-[ ! -d SameBoy ] && { git clone https://github.com/LIJI32/SameBoy && cd SameBoy || exit 1 ;}
+[ ! -d SameBoy ] && git clone https://github.com/LIJI32/SameBoy
 [ -d SameBoy ] && { cd SameBoy || exit 1; git pull ;}
 
 ## clone / update cppp
